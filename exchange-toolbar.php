@@ -8,8 +8,10 @@
  * Plugin URI: n/a
  * License: GNU GPLv2+
  */
+
 class Exchange_Admin_Bar {
-//The Exchange Toolbar Instance
+
+	//The Exchange Toolbar Instance
 	public static function init() {
 		static $instance = false;
 		if ( ! $instance ) {
