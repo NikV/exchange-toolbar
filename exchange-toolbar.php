@@ -91,6 +91,7 @@ class Exchange_Admin_Bar {
 		}
 	}
 }
+
 /**
  * Load the class, and check if the main plugin file exists
  *
@@ -101,7 +102,7 @@ function load_Exchange_Admin_Bar() {
 	if( !function_exists( 'is_plugin_active' ) ) {
 		include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 	}
-
+	//Check if the plugin's main file exists
 	if( is_plugin_active( 'ithemes-exchange/init.php' ) ) {
 		return Exchange_Admin_Bar::init();
 	}
