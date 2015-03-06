@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Exchange Toolbar
+ * Plugin URI: https://github.com/NikV/exchange-toolbar/
  * Description: A simple toolbar plugin for the Exchange eCommerce plugin built by iThemes
  * Author: Nikhil Vimal
  * Author URI: http://nik.techvoltz.com
